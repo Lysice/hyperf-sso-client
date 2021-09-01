@@ -23,10 +23,7 @@ return [
     'brokerName' => env('SSO_BROKER_NAME', null),
     'brokerSecret' => env('SSO_BROKER_SECRET', null),
     'expiredAt' => env('SSO_BROKER_EXPIRED_AT', null),
-    'currentUrl' => env('SSO_BROKER_CURRENTURL', null)
+    'currentUrl' => env('SSO_BROKER_CURRENTURL', null),
+    'indexUrl' => env('SSO_BROKER_INDEXURL', null),
+    'loginUrl' => env('SSO_BROKER_LOGIN_URI', '/login')
 ];
-$this->ssoServerUrl = isset($config['serverUrl']) ? $config['serverUrl'] : null;
-$this->brokerName =  isset($config['brokerName']) ? $config['brokerName'] : null;
-$this->brokerSecret = isset($config['brokerSecret']) ? $config['brokerSecret'] : null;
-$this->expiredAt = isset($config['expiredAt']) ? $config['expiredAt'] : null;
-$this->currentUrl = isset($config['currentUrl']) ? $config['currentUrl'] : null;

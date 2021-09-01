@@ -1,15 +1,19 @@
 {
-    "name": "hyperf/demo",
+    "name": "lysice/hyperf-sso-client",
     "type": "library",
     "license": "MIT",
     "keywords": [
         "php",
-        "hyperf"
+        "hyperf",
+        "SSO",
+        "Client"
     ],
-    "description": "",
+    "description": "a sso-client implementation for hyperf",
     "autoload": {
         "psr-4": {
-            "Hyperf\\Demo\\": "src/"
+            "Lysice\\SSOClient\\": "src/",
+            "Lysice\\SSOClient\\Exception\\": "src/Exception/",
+            "Lysice\\SSOClient\\Command\\": "src/command/"
         }
     },
     "autoload-dev": {
@@ -39,7 +43,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "Hyperf\\Demo\\ConfigProvider"
+            "config": "Lysice\\SSOClient\\ConfigProvider"
         }
     }
 }

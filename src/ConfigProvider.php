@@ -9,10 +9,7 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Lysice\SSO;
-
-use Lysice\SSO\Command\AllBrokerCommand;
-use Lysice\SSO\Command\CreateBrokerCommand;
+namespace Lysice\SSOClient;
 
 class ConfigProvider
 {

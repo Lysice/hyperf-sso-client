@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
-namespace Lysice\SSO;
+namespace Lysice\SSOClient;
 
-use Lysice\SSO\Contract\SSOBrokerInterface;
-use Lysice\SSO\Exception\MissingConfigurationException;
+use Lysice\SSOClient\Contract\SSOBrokerInterface;
+use Lysice\SSOClient\Exception\MissingConfigurationException;
 use Carbon\Carbon;
 use Exception;
 use GuzzleHttp\Client;

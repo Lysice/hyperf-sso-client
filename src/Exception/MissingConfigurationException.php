@@ -1,6 +1,6 @@
 <?php
 
-namespace Lysice\SSO\Exception;
+namespace Lysice\SSOClient\Exception;
 
 use Hyperf\Server\Exception\ServerException;
 

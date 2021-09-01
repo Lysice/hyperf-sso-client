@@ -1,6 +1,6 @@
 <?php
 
-namespace Lysice\SSO\Contract;
+namespace Lysice\SSOClient\Contract;
 
 use Hyperf\HttpMessage\Cookie\Cookie;
 

@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="633e71f3-67c2-4436-9248-031ec861e60f" name="Default Changelist" comment="" />
+    <list default="true" id="633e71f3-67c2-4436-9248-031ec861e60f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hyperf-sso-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hyperf-sso-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publish/hyperf-sso-client.php" beforeDir="false" afterPath="$PROJECT_DIR$/publish/hyperf-sso-client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConfigProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConfigProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Contract/SSOBrokerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contract/SSOBrokerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exception/MissingConfigurationException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/MissingConfigurationException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exception/ModelNotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/ModelNotFoundException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Middleware/SSOAutoLoginMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Middleware/SSOAutoLoginMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SSOBroker.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/SSOBroker.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +24,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -86,6 +101,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1xWuhtXbH9Dsk2MB3iHcoYwqSiq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -93,6 +109,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../hyperf-sso-server" />
   </component>
@@ -119,7 +136,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630483287551</updated>
-      <workItem from="1630483288719" duration="1795000" />
+      <workItem from="1630483288719" duration="5625000" />
     </task>
     <servers />
   </component>

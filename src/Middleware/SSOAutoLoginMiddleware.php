@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Middleware;
 
-use Lysice\SSO\SSOBroker;
+use Lysice\SSOClient\SSOBroker;
 use Hyperf\HttpMessage\Cookie\Cookie;
 use Psr\Container\ContainerInterface;
 use Psr\Http\Server\MiddlewareInterface;
@@ -64,6 +64,10 @@ class SSOAutoLoginMiddleware implements MiddlewareInterface
         // just attach but user not authenticated(not login)
         if(isset($response['error']) && strpos($response['error'], 'User not authenticated') !== false) {
             return $this->response->redirect('/login');
+        }
+        // login page redirected to index page
+        if($request->getUri()->getPath() === $this->config['loginUrl']) {
+            return $this->response->redirect($this->config['indexUrl']);
         }
 
         return $handler->handle($request);
